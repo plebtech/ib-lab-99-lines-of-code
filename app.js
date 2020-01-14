@@ -1,4 +1,4 @@
-let friends =[
+let friends = [
     'Hallie',
     'Isabel',
     'Julio',
@@ -12,7 +12,7 @@ friendsSing(friends);
 function friendsSing(friends) {
     for (let i in friends) {
         console.log(friends[i].toUpperCase() + ":");
-            singSong(friends[i]);
+        singSong(friends[i]);
     }
 }
 
@@ -28,7 +28,7 @@ function singSong(name) {
             console.log(lines + " lines of code in the file, " + lines + " line of code; " + name + " strikes one out, clears it all out, one more line of code in the file.");
             lines--;
         } else {
-            console.log(lines + " lines of code in the file, " + lines + " line of code; " + name + " strikes one out, clears it all out, " + (lines-1) + " lines of code in the file.");
+            console.log(lines + " lines of code in the file, " + lines + " line of code; " + name + " strikes one out, clears it all out, " + (lines - 1) + " lines of code in the file.");
             lines--;
         }
     }
